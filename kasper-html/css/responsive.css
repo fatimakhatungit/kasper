@@ -1,0 +1,130 @@
+  
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.animated {
+	padding: 60px 50px 60px 173px;
+}
+.primary-nav ul {
+	margin-left: 80px;
+}
+
+}
+
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 992px) {
+
+.animated {
+	padding: 35px 35px 35px 258px;
+}
+.animated h2 {
+	font-size: 22px;
+}
+.about-img img {
+	margin: 0 10px;
+}
+.mobile-device .black {
+	left: 0;
+}
+.mobile-device .white {
+	left: -98px;
+}
+
+.service-bottom {
+    padding-bottom: 100%;
+}
+.service-features {
+	padding: 40px 0 0 20px;
+	width: 100%;
+	top: 60%;
+	height: 319px;
+}
+
+.portfolio-item {
+	width: 50%;
+}
+.barfiller {
+    margin-left: 0px;
+}
+.header-search{
+	display: none;
+}
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.section-title {
+	margin: 0 auto 85px;
+	width: 290px;
+}
+	.animated h2 {
+	font-size: 25px;
+}
+.animated p {
+	font-size: 12px;
+}
+.carousel-caption > div {
+	width: 132%;
+	text-align: center;
+	padding: 20px 0;
+}
+.hero-slider .owl-nav div i {
+	color: #fff;
+	font-size: 35px;
+	display: none;
+}
+.service-bottom {
+    padding-bottom: 100%;
+}
+.service-features {
+	width: 100%;
+	z-index: 9;
+}
+.service-features {
+	top: 57%;
+}
+.portfolio-item {
+	width: 100%;
+}
+.barfiller {
+    margin-left: 0px;
+}
+.hero-slider .owl-nav div {
+	border: transparent;
+}
+.animated {
+		padding: 35px 35px 35px 258px;
+	}
+	.animated h2 {
+		font-size: 18px;
+	}
+	
+.header-search{
+	display: none;
+}
+.subtitle {
+	margin: 0 50px;
+	width: 70%;
+}
+ }
+ /* Large Mobile :480px. */
+@media only screen and (min-width: 340px) and (max-width: 767px) {
+.container {width:450px}
+.mobile-device .black img {
+	left: 0;
+}
+.mobile-device .white img {
+	left: 62px;
+	bottom: 400px;
+}
+ 
+}
+
